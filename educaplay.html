@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page avec Iframe</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            justify-content: center;
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+        }
+        .logo-container {
+            text-align: center;
+            margin-right: 20px;
+            flex-shrink: 0;
+        }
+        .logo {
+            display: block;
+            margin: 0 auto;
+            width: 441px;
+            height: 177px;
+        }
+        .btn-container {
+            margin-top: 5cm;
+            text-align: center;
+        }
+        .btn-retour {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .btn-retour:hover {
+            background-color: #45a049;
+        }
+        iframe {
+            width: 795px;
+            height: 690px;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="logo-container">
+        <img class="logo" src="Klexou Logo.png" alt="Logo Klexou">
+        <div class="btn-container">
+            <a class="btn-retour" href="https://kmed.de">Retour à l'accueil</a>
+        </div>
+    </div>
+    <iframe allow="fullscreen; autoplay;" allowfullscreen src="https://fr.educaplay.com/jeu/21768708-carte_interactive_chapitre_3_evaluation.html"></iframe>
+</body>
+</html>
